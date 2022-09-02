@@ -1,0 +1,77 @@
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+body {
+  background: rgb(165, 167, 162);
+  color:rgb(20, 17, 10);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px
+}
+
+.conteudo {
+  margin: auto;
+  width:100%;
+  max-width: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(197, 209, 84);
+  padding: 55px;
+  border-radius: 12px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.topo input {
+  width: 350px;
+  padding: 15px;
+  border-radius: 12px ;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background: rgb(191, 192, 188);
+  outline: none;
+}
+.topo button {
+  width: 45px;
+  border-radius: 12px;
+  border: 1px solid black;
+  background: #bfc0bc;
+  color:rgb(80, 77, 77);
+}
+.topo button:hover {
+  background: rgb(114, 114, 200);
+  cursor: pointer;
+}
+#listaTarefas {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#listaTarefas li {
+  padding: 20px;
+  background:rgb(114, 114, 200);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.btnAcao  {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+  cursor:pointer;
+  background: rgb(191, 192, 188);
+}
+.btnAcao:hover {
+  background: rgb(197, 209, 84);;
+}  
